@@ -1,0 +1,219 @@
+/* цвет меню текаста , h2, банеера и подвала #2E2F42; */
+/* цвет адреса, текста серый, #434455; */
+/* вторичный цвет фона #F4F4FD */
+/* лого Веб и кнопки синий #4D5AE5; */
+/* цвет h1 белый #FFFFFF;  */
+/* в подвале текст #E7E9FC; */
+
+
+
+:root{
+  --primary-text-color:#2e2f42;
+  --title-text-color:#434455;
+  --accent-color:#F4F4FD;
+  --logo-color:#4D5AE5;;
+  --white-color:#FFFFFF;
+  --footer-color:#E7E9FC;
+}
+
+
+
+body {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+  font-family:'Roboto';
+  font-size: 16px;
+}
+
+
+ul {
+  list-style: none; /* оформление свойство ul без класа отменили */
+}
+
+.logo {
+  text-transform: uppercase;
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.web{
+  color:var(--logo-color) ;
+}
+
+
+/* сделали невидимым текст класа*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.menu-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.menu-link:hover,.menu-link:focus{
+color:var(--logo-color);
+}
+.menu-current {
+  color:var(--logo-color);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.current:focus{
+  color:var(--logo-color);
+  }
+
+  .address a{
+    color: var(--title-text-color);
+    text-decoration: none;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  .address a:hover,.address a:focus{
+    color:var(--logo-color);
+    }
+  
+  
+
+  .hero{
+    background-color:var(--primary-text-color);
+  }
+
+  .hero-title{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+  }
+
+  .hero-button{
+    color:var(--white-color);
+    background-color: var(--logo-color);
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin: 0 auto;
+    display: block;
+    border-color:var(--white-color);
+  }
+
+
+
+.section-subtitle{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.section-text{
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+section-title{
+font-size: 36px;
+line-height: 1.11;
+/* identical to box height, or 111% */
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--primary-text-color);
+}
+
+.section-laptop{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.section-smartphone{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.section-technique{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.photo-tim {
+  background:var(--white-color);
+  box-shadow: 0px 1px 6px;
+}
+
+
+.logo1 {
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  text-decoration: none;
+}
+
+
+.footer{
+  box-sizing: border-box;
+  left: 0px;
+  top: 2280px;
+  background:var(--primary-text-color);
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.footer-text{
+  line-height: 1.05;
+  letter-spacing: 0.02em;
+  color: #E7E9FC;
+}
+
+.button-filter {
+  display: flex;
+  flex-direction: row;
+  background:var(--accent-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  color: var(--logo-color);
+  font-style: normal;
+  font-weight: 500;
+  
+}
+
+.button-filter:hover,.button-filter:focus{
+  color:var(--white-color);
+  text-decoration: underline;
+  text-decoration-color: var(--logo-color); 
+  border-color:var(--primary-text-color);
+  background-color:var(--logo-color);
+  }
