@@ -116,14 +116,14 @@ color:var(--logo-color);
 
   .hero{
     background-color:var(--primary-text-color);
+    text-align: center;
   }
 
   .hero-title{
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 48px;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: var(--white-color);
   }
@@ -137,8 +137,6 @@ color:var(--logo-color);
     top: 428px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    margin: 0 auto;
-    display: block;
     border-color:var(--white-color);
   }
 
