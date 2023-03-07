@@ -6,7 +6,7 @@
 /* в подвале текст #E7E9FC; */
 
 
-
+/* сделал палитру цветов - использывать через var */
 :root{
   --primary-text-color:#2e2f42;
   --title-text-color:#434455;
@@ -16,6 +16,17 @@
   --footer-color:#E7E9FC;
 }
 
+.page-header{
+  background-color: var(--white-color);
+
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1158px;
+  outline: 2px solid red;
+}
 
 
 body {
@@ -27,9 +38,12 @@ body {
 
 
 ul {
+  padding: 0;
+  margin: 0%;
   list-style: none; /* оформление свойство ul без класа отменили */
 }
 
+/* лого 2-я часть */
 .logo {
   text-transform: uppercase;
   font-family: 'Raleway';
@@ -40,6 +54,8 @@ ul {
   text-decoration: none;
   color: var(--primary-text-color);
 }
+
+/*лого 1 часть */
 .web{
   color:var(--logo-color) ;
 }
@@ -59,6 +75,7 @@ ul {
   overflow: hidden;
 }
 
+/* меню  */
 .menu-link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -81,6 +98,9 @@ color:var(--logo-color);
   color:var(--logo-color);
   }
 
+  /* конец меню */
+
+
   .address a{
     color: var(--title-text-color);
     text-decoration: none;
@@ -99,6 +119,8 @@ color:var(--logo-color);
   }
 
   .hero-title{
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -119,7 +141,6 @@ color:var(--logo-color);
     display: block;
     border-color:var(--white-color);
   }
-
 
 
 .section-subtitle{
