@@ -18,6 +18,7 @@
 
 .page-header{
   background-color: var(--white-color);
+  border-bottom: 1px solid #E7E9FC;
 
 }
 
@@ -25,9 +26,10 @@
   margin-left: auto;
   margin-right: auto;
   width: 1158px;
+
+
   outline: 2px solid red;
 }
-
 
 body {
   background-color: var(--white-color);
@@ -76,12 +78,31 @@ ul {
 }
 
 /* меню  */
+
+.menu{
+  display: flex;
+  
+  
+}
+
+.menu .item {
+  margin-right: 40px;
+  
+}
+
+
+
+
 .menu-link {
   color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .menu-link:hover,.menu-link:focus{
 color:var(--logo-color);
@@ -92,6 +113,10 @@ color:var(--logo-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .current:focus{
@@ -115,9 +140,15 @@ color:var(--logo-color);
   
 
   .hero{
+    
     background-color:var(--primary-text-color);
-    text-align: center;
     margin-bottom: 120px;
+    text-align: center;
+
+    /* width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid red; */
   }
 
   .hero-title{
@@ -148,13 +179,13 @@ color:var(--logo-color);
   }
 
   .section-title, .centred, 
-        .indent{
-          margin-top: 120px;
-          margin-bottom: 72px;
-        }
+  .indent{
+    margin-top: 120px;
+    margin-bottom: 72px;
+   }
 
 .section-subtitle{
-  margin-top: 0;
+  margin-top: 32px;
   margin-bottom: 0;
   font-weight: 500;
   font-size: 20px;
@@ -173,7 +204,6 @@ color:var(--logo-color);
 section-title{
 font-size: 36px;
 line-height: 1.11;
-/* identical to box height, or 111% */
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--primary-text-color);
@@ -200,6 +230,21 @@ color: var(--primary-text-color);
   padding: 0px;
 }
 
+.section-tim{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1158px;
+  color: var(--title-text-color);
+  background-color:#F4F4FD ;
+
+  outline: 2px solid red;
+}
+
+.centr-tim{
+  padding-top: 120px;
+  
+}
+
 .photo-tim {
   background:var(--white-color);
   box-shadow: 0px 1px 6px;
@@ -207,6 +252,7 @@ color: var(--primary-text-color);
 
 
 .logo1 {
+  margin-bottom: 16px;
   color: var(--white-color);
   text-transform: uppercase;
   font-family: "Raleway";
@@ -218,12 +264,20 @@ color: var(--primary-text-color);
 
 
 .footer{
+  /* margin-left: auto;
+  margin-right: auto;
+  width: 1158px;
+  outline: 2px solid red; */
+  padding-top: 100px;
+  padding-bottom: 100px;
   box-sizing: border-box;
   left: 0px;
   top: 2280px;
   background:var(--primary-text-color);
   border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+
+  
 }
 
 .footer-text{
@@ -232,7 +286,13 @@ color: var(--primary-text-color);
   color: #E7E9FC;
 }
 
+.inner{
+  padding-top: 96px;
+  padding-bottom: 72px;
+}
+
 .button-filter {
+  padding: 12px 24px;
   display: flex;
   flex-direction: row;
   background:var(--accent-color);
