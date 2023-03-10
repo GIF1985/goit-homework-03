@@ -293,10 +293,34 @@ color:var(--logo-color);
   margin-right: 24px;
 }
 
+.tim, 
+.item .photo-tim {
+  display: flex;
+  text-align: center;
+  
+}
+
+.tim .item{
+
+  margin-right: 24px;
+  margin-bottom: 120px;
+  
+}
+
+
+.mark{
+  margin-left: 156px;
+}
+
+.Daniel{
+  margin-right: 156px;
+}
+
+
 .section-tim{
     margin-left: auto;
     margin-right: auto;
-    width: 1158px;
+    width: 1440px;
   color: var(--title-text-color);
   background-color:#F4F4FD ;
 
@@ -314,7 +338,6 @@ color:var(--logo-color);
 
 
 .logo1 {
-  margin-bottom: 16px;
   color: var(--white-color);
   text-transform: uppercase;
   font-family: "Raleway";
@@ -322,10 +345,14 @@ color:var(--logo-color);
   font-size: 18px;
   line-height: 1.33;
   text-decoration: none;
+
+  margin-left: 156px;
+  margin-bottom: 16px;
 }
 
 
 .footer{
+  width: 1440px;
   padding-top: 100px;
   padding-bottom: 100px;
   box-sizing: border-box;
@@ -339,9 +366,12 @@ color:var(--logo-color);
 }
 
 .footer-text{
+  margin-bottom: 16px;
   line-height: 1.05;
   letter-spacing: 0.02em;
   color: #E7E9FC;
+
+  margin-left: 156px;
 }
 
 .inner{
