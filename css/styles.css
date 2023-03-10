@@ -421,7 +421,7 @@ color:var(--logo-color);
 
   .container .device{
     display: flex;
-    text-align: center;
+    text-align: left;
   }
 
   .device .item{
@@ -431,4 +431,9 @@ color:var(--logo-color);
 
   .device .item:last-child{
     margin-right: 0;
+  }
+
+  .device .section-subtitle,
+  .section-text{
+    margin-left: 16px;
   }
