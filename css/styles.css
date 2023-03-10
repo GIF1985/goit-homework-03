@@ -204,18 +204,27 @@ color:var(--logo-color);
 
   /* section */
 
-  .center ul{
-  display: block;
+   .advantages{
+ display: block;
   display: flex;
-  justify-content: space-between; 
-  }
+  padding: 0;
+  margin: 0; 
+
+  text-align: left;
+
+  
+  border: 1px solid orange;
+  background: #fff5d7;
+  } 
+
+
 
   .section-title, .centr{
     text-align: center;
   }
  
   .section2 .section-text +.section-text{
-    margin-left:  90px;
+    margin-left: 0px;
   }
 
   .section-title, .centr, 
