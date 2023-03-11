@@ -316,7 +316,7 @@ color:var(--logo-color);
 .section-tim{
     margin-left: auto;
     margin-right: auto;
-    width: 1158px;
+    width: 1440x;
   color: var(--title-text-color);
   background-color:#F4F4FD ;
 
@@ -346,9 +346,12 @@ color:var(--logo-color);
   margin-bottom: 16px;
 }
 
+.fon{
+  background:var(--primary-text-color);
+
+}
 
 .footer{
-  width: 1158px;
   padding-top: 100px;
   padding-bottom: 100px;
   box-sizing: border-box;
@@ -434,7 +437,6 @@ color:var(--logo-color);
     margin-right: 0;
   }
 
-  /* .device .section-subtitle,
-  .section-text{
+  .device .chapter{
     margin-left: 16px;
-  } */
+  }
