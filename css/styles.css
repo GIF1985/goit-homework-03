@@ -14,6 +14,7 @@
   --logo-color:#4D5AE5;;
   --white-color:#FFFFFF;
   --footer-color:#E7E9FC;
+  --зressed-ocean:#404BBF;
 }
 
 .page-header{
@@ -29,7 +30,7 @@
   margin-right: auto;
   width: 1158px;
   
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 
   padding-left: 15px;
   padding-right: 15px;
@@ -173,7 +174,6 @@ color:var(--logo-color);
     text-align: center;
     padding-top: 188px;
     padding-bottom: 188px;
-    width: 1440px;
     margin:0 auto;
   }
 
@@ -201,8 +201,8 @@ color:var(--logo-color);
 
   .hero-button:hover,
   .hero-button:focus{
-    color: var(--logo-color);
-    background-color: var(--white-color);
+    color: var(--white-color);
+    background-color: var(--зressed-ocean);
   }
 
 
@@ -212,7 +212,6 @@ color:var(--logo-color);
   }
 
    .advantages{
- display: block;
   display: flex;
   padding: 0;
   margin: 0; 
@@ -308,15 +307,18 @@ color:var(--logo-color);
 
 .tim .item{
   margin-right: 24px;
-  padding-bottom: 32px;
+  
 }
 
 .tim .item:last-child{
   margin-right: 0;
 }
 
-.tim .section-subtitle{
+.tim .tim-box{
   margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .section-tim{
@@ -324,7 +326,7 @@ color:var(--logo-color);
     margin-right: auto;
     color: var(--title-text-color);
     background-color:#F4F4FD ;
-    width: 1440px;
+  
 }
 
 .section-advantages{
@@ -366,7 +368,6 @@ color:var(--logo-color);
   background:var(--primary-text-color);
   border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-  width: 1440px;
   margin:0 auto;
 }
 
@@ -386,7 +387,8 @@ color:var(--logo-color);
 .inner{
   display: flex;
   margin-bottom: 72px;
-  margin-left: 271px;
+  justify-content: center;
+  
   
 }
 
@@ -420,6 +422,8 @@ color:var(--logo-color);
   .project{
     display: flex;
       flex-wrap: wrap;
+      row-gap: 48px;
+    column-gap: 24px;
 
   }
 
@@ -427,14 +431,16 @@ color:var(--logo-color);
     display: block;
     margin-left: 0px;
     padding-bottom: 0;
-    margin-right: 24px;
-    margin-bottom: 48px;
+    
+
+    /* margin-right: 24px;
+    margin-bottom: 48px; */
   }
 
 
-  .project .item:nth-of-type(3n){
+  /* .project .item:nth-of-type(3n){
     margin-right: 0;
-  }
+  } */
 
 
   .portfolio-frame{
