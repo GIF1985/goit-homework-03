@@ -234,6 +234,7 @@ color:var(--logo-color);
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 700;
+    font-size: 36px;
    color: var(--primary-text-color);
 
   }
@@ -260,6 +261,9 @@ color:var(--logo-color);
 
 }
 
+.technique-photo{
+  width: 360px;
+}
 
 .section-laptop{
  display: block;
@@ -300,11 +304,14 @@ color:var(--logo-color);
   margin-right: 0;
 }
 
+.photo-tim{
+  width: 264px;
+}
+
 .tim, 
 .item .photo-tim {
   display: flex;
   text-align: center;
-  width: 264px;
   
 }
 
@@ -432,6 +439,10 @@ color:var(--logo-color);
       row-gap: 48px;
     column-gap: 24px;
 
+  }
+
+  .project-photo{
+    width: 360px;
   }
 
   .project .item{
