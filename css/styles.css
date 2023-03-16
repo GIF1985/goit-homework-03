@@ -233,7 +233,9 @@ color:var(--logo-color);
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
-    
+    font-weight: 700;
+   color: var(--primary-text-color);
+
   }
 
   
@@ -263,18 +265,21 @@ color:var(--logo-color);
  display: block;
  max-width: 100%;
  height: auto;
+ width: 360px;
 }
 
 .section-smartphone{
   display: block;
   max-width: 100%;
   height: auto;
+  width: 360px;
 }
 
 .section-technique{
   display: block;
   max-width: 100%;
   height: auto;
+  width: 360px;
   
 }
 
@@ -299,6 +304,7 @@ color:var(--logo-color);
 .item .photo-tim {
   display: flex;
   text-align: center;
+  width: 264px;
   
 }
 
@@ -432,6 +438,7 @@ color:var(--logo-color);
     display: block;
     margin-left: 0px;
     padding-bottom: 0;
+    width: 360px;
     
 
     /* margin-right: 24px;
